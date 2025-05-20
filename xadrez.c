@@ -25,5 +25,17 @@
         posicao_Rainha = posicao_Rainha + 1;
         }
         while (posicao_Rainha <= 8);
+    
+    //Movimentando o Cavalo
+    int movimento_Completo = 1; //Flag para controlar o movimento completo
+    while (movimento_Completo--)
+        {
+        int i = 1;
+        for (i = 1; i <=2; i++)
+            {
+            printf("CAVALO - Baixo\n");
+            }
+            printf("CAVALO - Esquerda\n");
+        }
     return 0;
 }
